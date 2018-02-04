@@ -1,0 +1,6 @@
+2018-02-04 18:40:56,170 [main] INFO root.logging.YourLogger - Navigate To Facebook.com
+2018-02-04 18:40:59,340 [main] INFO root.logging.YourLogger - Enter your UserName
+2018-02-04 18:41:01,130 [main] INFO root.logging.YourLogger - Enter Your password
+2018-02-04 18:48:12,314 [main] INFO root.logging.YourLogger - Navigate To Facebook.com
+2018-02-04 18:48:20,528 [main] INFO root.logging.YourLogger - Enter your UserName
+2018-02-04 18:48:22,001 [main] INFO root.logging.YourLogger - Enter Your password
