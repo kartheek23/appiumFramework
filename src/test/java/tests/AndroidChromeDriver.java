@@ -1,13 +1,14 @@
 package tests;
 
-import org.testng.annotations.Listeners;
+
+import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 import pages.android.chrome.FirstPage;
 import root.DriverManager;
 import root.logging.YourLogger;
-import root.reporting.ReportingListener;
-@Listeners(ReportingListener.class)
+
+
 public class AndroidChromeDriver extends DriverManager {
 
 	

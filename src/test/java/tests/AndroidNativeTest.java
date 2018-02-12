@@ -1,6 +1,7 @@
 package tests;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import pages.android.nativeapp.StartPage;
 import pages.android.nativeapp.SignUp1stPage;
