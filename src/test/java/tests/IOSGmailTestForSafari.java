@@ -1,8 +1,6 @@
 package tests;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
-
 import pages.ios.safari.GmailSignInPage;
 import root.DriverManager;
 import root.PageMethods;

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7208" started-at="2018-02-05T12:13:03Z" finished-at="2018-02-05T12:13:10Z">
+  <suite name="Default suite" duration-ms="52632" started-at="2018-02-12T09:59:08Z" finished-at="2018-02-12T10:00:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7208" started-at="2018-02-05T12:13:03Z" finished-at="2018-02-05T12:13:10Z">
-      <class name="tests.AndroidChromeDriver">
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.AndroidChromeDriver@20322d26]" name="init" is-config="true" duration-ms="16242" started-at="2018-02-05T17:42:47Z" finished-at="2018-02-05T17:43:03Z">
+    <test name="Default test" duration-ms="52632" started-at="2018-02-12T09:59:08Z" finished-at="2018-02-12T10:00:01Z">
+      <class name="tests.IOSNativeTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.IOSNativeTest@20322d26]" name="init" is-config="true" duration-ms="45950" started-at="2018-02-12T15:28:23Z" finished-at="2018-02-12T15:29:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="methodOne()[pri:0, instance:tests.AndroidChromeDriver@20322d26]" name="methodOne" duration-ms="7188" started-at="2018-02-05T17:43:03Z" description="&lt;b&gt; Login to facebook.com &lt;/b&gt;&lt;/br&gt; 1.Enter User Name&lt;/br&gt; 2. Enter Password&lt;/br&gt; 3. click On SignIn." finished-at="2018-02-05T17:43:10Z">
+        <test-method status="PASS" signature="methodOne()[pri:0, instance:tests.IOSNativeTest@20322d26]" name="methodOne" duration-ms="52612" started-at="2018-02-12T15:29:09Z" finished-at="2018-02-12T15:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodOne -->
-      </class> <!-- tests.AndroidChromeDriver -->
+      </class> <!-- tests.IOSNativeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -7,11 +7,14 @@ import org.testng.annotations.Listeners;
 
 import root.DriverObjectFactory;
 import root.reporting.ReportingListener;
+import root.startAppiumServer.InvocationServerFactory;
 @Listeners(ReportingListener.class)
 public class DriverManager extends DriverInitialization {	
 	private String data;
+	
 	@BeforeSuite
 	public void init() {	    
+		InvocationServerFactory isf = new InvocationServerFactory();
 		data = ReadProperties.getConfigDetails();
 		String platform=data.split("::")[0];
 		String deviceType = data.split("::")[1];
@@ -21,15 +24,19 @@ public class DriverManager extends DriverInitialization {
 		
 		if(platform.equalsIgnoreCase("Android") && deviceType.equalsIgnoreCase("Device") && appOrBrowser.equalsIgnoreCase("Browser"))
 		{
+			isf.startAppiumGenericServer();
 			dof.returnAndroidDeviceDriverForChrome();
 		}
 		else if(platform.equalsIgnoreCase("Android") && deviceType.equalsIgnoreCase("Device") && appOrBrowser.equalsIgnoreCase("App")) {
+			isf.startAppiumGenericServer();
 			dof.returnAndroidDeviceDriver();	
 		}	
 		else if(platform.equalsIgnoreCase("IOS") && deviceType.equalsIgnoreCase("Device") && appOrBrowser.equalsIgnoreCase("App")) {
+			isf.startAppiumGenericServer();
 			dof.returnIOSAppDriverOnDevice();
 		}
 		else if(platform.equalsIgnoreCase("IOS") && deviceType.equalsIgnoreCase("Device") && appOrBrowser.equalsIgnoreCase("Browser")) {
+			isf.startAppiumGenericServer();
 			dof.returnSafariDriverOnDevice();
 		}
 	}
