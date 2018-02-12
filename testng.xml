@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="tests.AndroidNativeTest"/>
-      <class name="tests.IOSGmailTestForSafari"/>
+      <!-- <class name="tests.AndroidNativeTest"/> -->
+      <!-- <class name="tests.IOSGmailTestForSafari"/> -->
       <class name="tests.IOSNativeTest"/>
-      <class name="tests.AndroidChromeDriver"/>
+      <!-- <class name="tests.AndroidChromeDriver"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
