@@ -32,7 +32,7 @@ public class GenericAppiumServerImpl implements AppiumInvocation {
 			ProcessBuilder processBuilder2 = new ProcessBuilder(postCommand);
 			process = processBuilder2.start();
 			process.waitFor(5,TimeUnit.MINUTES);
-			Thread.sleep(10000);
+			Thread.sleep(20000);
 			}
 			catch(IOException io) {
 				System.out.println("The Shell file might not be present. Please check");
