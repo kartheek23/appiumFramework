@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52632" started-at="2018-02-12T09:59:08Z" finished-at="2018-02-12T10:00:01Z">
+  <suite name="Default suite" duration-ms="34996" started-at="2018-02-13T11:44:37Z" finished-at="2018-02-13T11:45:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52632" started-at="2018-02-12T09:59:08Z" finished-at="2018-02-12T10:00:01Z">
+    <test name="Default test" duration-ms="34996" started-at="2018-02-13T11:44:37Z" finished-at="2018-02-13T11:45:12Z">
       <class name="tests.IOSNativeTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.IOSNativeTest@20322d26]" name="init" is-config="true" duration-ms="45950" started-at="2018-02-12T15:28:23Z" finished-at="2018-02-12T15:29:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.IOSNativeTest@dc24521]" name="init" is-config="true" duration-ms="80710" started-at="2018-02-13T17:13:16Z" finished-at="2018-02-13T17:14:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="methodOne()[pri:0, instance:tests.IOSNativeTest@20322d26]" name="methodOne" duration-ms="52612" started-at="2018-02-12T15:29:09Z" finished-at="2018-02-12T15:30:01Z">
+        <test-method status="PASS" signature="methodOne()[pri:0, instance:tests.IOSNativeTest@dc24521]" name="methodOne" duration-ms="34975" started-at="2018-02-13T17:14:37Z" description="&lt;b&gt; Test Different functionalities of UICatalog app.&lt;/b&gt;&lt;br&gt; 1. Open UI Catalog app.&lt;br&gt; 2. Check Alert View Functionality.&lt;br&gt; 3. Check Picker View Functionality." finished-at="2018-02-13T17:15:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodOne -->

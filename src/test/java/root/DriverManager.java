@@ -39,5 +39,9 @@ public class DriverManager extends DriverInitialization {
 			isf.startAppiumGenericServer();
 			dof.returnSafariDriverOnDevice();
 		}
+		else if(platform.equalsIgnoreCase("IOS") && deviceType.equalsIgnoreCase("Simulator") && appOrBrowser.equalsIgnoreCase("App")) {
+			isf.startAppiumGenericServer();
+			dof.returnIOSAppDriverOnSim();
+		}
 	}
 }

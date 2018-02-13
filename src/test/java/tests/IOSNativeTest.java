@@ -8,7 +8,10 @@ import root.DriverManager;
 
 public class IOSNativeTest extends DriverManager{
 	
-	@Test
+	@Test(description = "<b> Test Different functionalities of UICatalog app.</b>"
+	+"<br> 1. Open UI Catalog app." 
+	+"<br> 2. Check Alert View Functionality."
+	+"<br> 3. Check Picker View Functionality.")
 	public void methodOne() {
 		AlertViews alertViews = new AlertViews();
 		alertViews.clickAlertView();

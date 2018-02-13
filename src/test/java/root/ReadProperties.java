@@ -28,4 +28,16 @@ static {
 public static String getConfigDetails() {
 	return props.getProperty("configDetails");
 }
+
+public static String getRecipientsEmailID() {
+	return props.getProperty("toEmailID");
+}
+
+public static String ccRecipientEmailID() {
+	return props.getProperty("ccEmailID");
+}
+
+public static String bccRecipientEmailID() {
+    return props.getProperty("bccEmailID");	
+}
 }
